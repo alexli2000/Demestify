@@ -35,6 +35,8 @@
 		FA3204D41BEE56D7007CE6E6 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204D31BEE56D7007CE6E6 /* PetModel.swift */; };
 		FA3204D71BEE624D007CE6E6 /* CaregiversModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204D51BEE624D007CE6E6 /* CaregiversModuleViewController.swift */; };
 		FA3204D81BEE624D007CE6E6 /* CaregiversModuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3204D61BEE624D007CE6E6 /* CaregiversModuleViewController.xib */; };
+		FA3204DC1BEE6EFC007CE6E6 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204DA1BEE6EFC007CE6E6 /* StoreViewController.swift */; };
+		FA3204DD1BEE6EFC007CE6E6 /* StoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3204DB1BEE6EFC007CE6E6 /* StoreViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		FA3204D31BEE56D7007CE6E6 /* PetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
 		FA3204D51BEE624D007CE6E6 /* CaregiversModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaregiversModuleViewController.swift; sourceTree = "<group>"; };
 		FA3204D61BEE624D007CE6E6 /* CaregiversModuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaregiversModuleViewController.xib; sourceTree = "<group>"; };
+		FA3204DA1BEE6EFC007CE6E6 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		FA3204DB1BEE6EFC007CE6E6 /* StoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,8 @@
 				FA32047E1BEE3BB6007CE6E6 /* AppDelegate.swift */,
 				FA3204D91BEE62AA007CE6E6 /* Caregiver's Module */,
 				FA3204AE1BEE40A9007CE6E6 /* Constants.swift */,
+				FA3204DA1BEE6EFC007CE6E6 /* StoreViewController.swift */,
+				FA3204DB1BEE6EFC007CE6E6 /* StoreViewController.xib */,
 				FA3204801BEE3BB6007CE6E6 /* ViewController.swift */,
 				FA3204D31BEE56D7007CE6E6 /* PetModel.swift */,
 				FA3204821BEE3BB6007CE6E6 /* Main.storyboard */,
@@ -328,6 +334,7 @@
 				FA3204891BEE3BB6007CE6E6 /* LaunchScreen.storyboard in Resources */,
 				FA3204861BEE3BB6007CE6E6 /* Assets.xcassets in Resources */,
 				FA3204841BEE3BB6007CE6E6 /* Main.storyboard in Resources */,
+				FA3204DD1BEE6EFC007CE6E6 /* StoreViewController.xib in Resources */,
 				FA3204D81BEE624D007CE6E6 /* CaregiversModuleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +362,7 @@
 			files = (
 				FA3204811BEE3BB6007CE6E6 /* ViewController.swift in Sources */,
 				FA3204D71BEE624D007CE6E6 /* CaregiversModuleViewController.swift in Sources */,
+				FA3204DC1BEE6EFC007CE6E6 /* StoreViewController.swift in Sources */,
 				FA32047F1BEE3BB6007CE6E6 /* AppDelegate.swift in Sources */,
 				FA3204AF1BEE40A9007CE6E6 /* Constants.swift in Sources */,
 				FA3204D41BEE56D7007CE6E6 /* PetModel.swift in Sources */,
