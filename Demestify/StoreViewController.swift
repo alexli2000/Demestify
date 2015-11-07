@@ -10,6 +10,7 @@ import UIKit
 
 class StoreViewController: UIViewController {
 
+    @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,10 +22,13 @@ class StoreViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func purchaseClothing() {
+    func purchaseClothing(item:Clothing) {
         
     }
     
+    func purchaseFood() {
+        
+    }
     
     
     /*

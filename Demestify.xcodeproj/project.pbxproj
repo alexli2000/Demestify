@@ -37,6 +37,7 @@
 		FA3204D81BEE624D007CE6E6 /* CaregiversModuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3204D61BEE624D007CE6E6 /* CaregiversModuleViewController.xib */; };
 		FA3204DC1BEE6EFC007CE6E6 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204DA1BEE6EFC007CE6E6 /* StoreViewController.swift */; };
 		FA3204DD1BEE6EFC007CE6E6 /* StoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3204DB1BEE6EFC007CE6E6 /* StoreViewController.xib */; };
+		FA3204DF1BEE767F007CE6E6 /* Store Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204DE1BEE767F007CE6E6 /* Store Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		FA3204D61BEE624D007CE6E6 /* CaregiversModuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaregiversModuleViewController.xib; sourceTree = "<group>"; };
 		FA3204DA1BEE6EFC007CE6E6 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		FA3204DB1BEE6EFC007CE6E6 /* StoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreViewController.xib; sourceTree = "<group>"; };
+		FA3204DE1BEE767F007CE6E6 /* Store Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store Constants.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				FA3204D91BEE62AA007CE6E6 /* Caregiver's Module */,
 				FA3204AE1BEE40A9007CE6E6 /* Constants.swift */,
 				FA3204DA1BEE6EFC007CE6E6 /* StoreViewController.swift */,
+				FA3204DE1BEE767F007CE6E6 /* Store Constants.swift */,
 				FA3204DB1BEE6EFC007CE6E6 /* StoreViewController.xib */,
 				FA3204801BEE3BB6007CE6E6 /* ViewController.swift */,
 				FA3204D31BEE56D7007CE6E6 /* PetModel.swift */,
@@ -365,6 +368,7 @@
 				FA3204DC1BEE6EFC007CE6E6 /* StoreViewController.swift in Sources */,
 				FA32047F1BEE3BB6007CE6E6 /* AppDelegate.swift in Sources */,
 				FA3204AF1BEE40A9007CE6E6 /* Constants.swift in Sources */,
+				FA3204DF1BEE767F007CE6E6 /* Store Constants.swift in Sources */,
 				FA3204D41BEE56D7007CE6E6 /* PetModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
