@@ -16,11 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let pet = PetModel()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
         Parse.enableLocalDatastore()
         Parse.setApplicationId(PF_APPLICATIONKEY, clientKey: PF_CLIENTKEY)
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
-        
         return true
     }
 

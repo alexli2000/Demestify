@@ -70,8 +70,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func caregiversModuleButtonTapped(sender: AnyObject) {
-        
-        
+        /*
+        let navigationController = self.storyboard!.instantiateViewControllerWithIdentifier("storeNavController") as! UINavigationController
+        let formSheetController = MZFormSheetPresentation(contentViewController: navigationController)
+        formSheetController.contentViewSize = CGSizeMake(300, 393)
+        self.presentViewController(formSheetController, animated: true, completion: nil)
+        */
     }
     
 }

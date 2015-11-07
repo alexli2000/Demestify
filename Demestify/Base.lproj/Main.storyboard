@@ -119,6 +119,47 @@
             </objects>
             <point key="canvasLocation" x="354" y="372"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Xh4-0X-hbK">
+            <objects>
+                <viewController id="MhD-wC-UNz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="poU-PP-wfP"/>
+                        <viewControllerLayoutGuide type="bottom" id="eqp-xO-eVK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gyv-Dy-VyH">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="524"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dQ9-HQ-4i7"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="524"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wdc-c6-zQU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1928" y="372"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cCZ-M4-HgG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wfe-7A-lru" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yZz-Bo-jKa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MhD-wC-UNz" kind="relationship" relationship="rootViewController" id="GcA-jc-6JW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ulN-Yp-6fd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116" y="372"/>
+        </scene>
     </scenes>
     <resources>
         <image name="healthBar" width="231" height="65"/>

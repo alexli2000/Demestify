@@ -26,7 +26,7 @@ class StoreViewController: UIViewController {
         
     }
     
-    func purchaseFood() {
+    func purchaseFood(item:Food) {
         
     }
     
