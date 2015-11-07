@@ -54,6 +54,7 @@
 		FAAFA56E1BEE8A5E00CC408B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAFA56D1BEE8A5E00CC408B /* Social.framework */; };
 		FAAFA5701BEE8A6500CC408B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAFA56F1BEE8A6500CC408B /* Accounts.framework */; };
 		FAAFA5721BEE8BBA00CC408B /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAFA5711BEE8BBA00CC408B /* libstdc++.6.tbd */; };
+		FAAFA5741BEE8D6500CC408B /* Parse Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFA5731BEE8D6500CC408B /* Parse Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +146,7 @@
 		FAAFA56D1BEE8A5E00CC408B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		FAAFA56F1BEE8A6500CC408B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		FAAFA5711BEE8BBA00CC408B /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		FAAFA5731BEE8D6500CC408B /* Parse Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Parse Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +246,7 @@
 				FA3204D91BEE62AA007CE6E6 /* Caregiver's Module */,
 				FA3204E01BEE7916007CE6E6 /* Store VC */,
 				FA3204D31BEE56D7007CE6E6 /* PetModel.swift */,
+				FAAFA5731BEE8D6500CC408B /* Parse Helper.swift */,
 				FA3204821BEE3BB6007CE6E6 /* Main.storyboard */,
 				FA3204851BEE3BB6007CE6E6 /* Assets.xcassets */,
 				FA3204871BEE3BB6007CE6E6 /* LaunchScreen.storyboard */,
@@ -311,8 +314,8 @@
 			isa = PBXGroup;
 			children = (
 				FA3204DA1BEE6EFC007CE6E6 /* StoreViewController.swift */,
-				FA3204DE1BEE767F007CE6E6 /* Store Constants.swift */,
 				FA3204DB1BEE6EFC007CE6E6 /* StoreViewController.xib */,
+				FA3204DE1BEE767F007CE6E6 /* Store Constants.swift */,
 			);
 			name = "Store VC";
 			sourceTree = "<group>";
@@ -536,6 +539,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3204811BEE3BB6007CE6E6 /* ViewController.swift in Sources */,
+				FAAFA5741BEE8D6500CC408B /* Parse Helper.swift in Sources */,
 				FA7BE53E1BEE88F6005C314B /* MZFormSheetPresentationViewController.m in Sources */,
 				FA3204D71BEE624D007CE6E6 /* CaregiversModuleViewController.swift in Sources */,
 				FA7BE53B1BEE88F6005C314B /* MZFormSheetContentSizingNavigationController.m in Sources */,

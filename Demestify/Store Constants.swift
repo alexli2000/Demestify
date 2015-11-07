@@ -43,8 +43,8 @@ struct Clothing {
     }
 }
 
-enum FoodTypes {
-    case Sushi, Corn, Chicken, Pizza, Fries, Bread, Cotton_Candy, Sandwich, Hamburger, Spaghetti, Milkshake, Coffee
+enum FoodTypes:Int {
+    case Sushi = 0, Corn, Chicken, Pizza, Fries, Bread, Cotton_Candy, Sandwich, Hamburger, Spaghetti, Milkshake, Coffee
 }
 
 enum ClothingTypes {

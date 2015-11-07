@@ -12,6 +12,7 @@ class PetModel: NSObject {
 
     var petMoney:Int?
     var petHealth:Float?
+    var purchasedClothing:[Int] = []
     
     override init() {
         petMoney = NSUserDefaults.standardUserDefaults().integerForKey("petMoney")
@@ -22,6 +23,8 @@ class PetModel: NSObject {
         if petHealth == 0.0 {
             petHealth = 0.9
         }
+        
+        purchasedClothing = NSUserDefaults.standardUserDefaults().objectForKey("purchasedClothing") as! [Int]
     }
     
     func saveData() {
@@ -31,5 +34,7 @@ class PetModel: NSObject {
         if petHealth != nil {
         NSUserDefaults.standardUserDefaults().setFloat(petHealth!, forKey: "petHealth")
         }
+
+        NSUserDefaults.standardUserDefaults().setObject(purchasedClothing, forKey: "purcahsedClothing")
     }
 }
