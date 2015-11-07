@@ -23,4 +23,13 @@ class PetModel: NSObject {
             petHealth = 0.9
         }
     }
+    
+    func saveData() {
+        if petMoney != nil {
+        NSUserDefaults.standardUserDefaults().setInteger(petMoney!, forKey: "petMoney")
+        }
+        if petHealth != nil {
+        NSUserDefaults.standardUserDefaults().setFloat(petHealth!, forKey: "petHealth")
+        }
+    }
 }
