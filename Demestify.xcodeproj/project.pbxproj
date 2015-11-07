@@ -32,6 +32,9 @@
 		FA3204CD1BEE4267007CE6E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204CC1BEE4267007CE6E6 /* SystemConfiguration.framework */; };
 		FA3204CF1BEE426D007CE6E6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204CE1BEE426D007CE6E6 /* libz.tbd */; };
 		FA3204D11BEE4275007CE6E6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204D01BEE4275007CE6E6 /* libsqlite3.tbd */; };
+		FA3204D41BEE56D7007CE6E6 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204D31BEE56D7007CE6E6 /* PetModel.swift */; };
+		FA3204D71BEE624D007CE6E6 /* CaregiversModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204D51BEE624D007CE6E6 /* CaregiversModuleViewController.swift */; };
+		FA3204D81BEE624D007CE6E6 /* CaregiversModuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3204D61BEE624D007CE6E6 /* CaregiversModuleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,9 @@
 		FA3204CC1BEE4267007CE6E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FA3204CE1BEE426D007CE6E6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		FA3204D01BEE4275007CE6E6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FA3204D31BEE56D7007CE6E6 /* PetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		FA3204D51BEE624D007CE6E6 /* CaregiversModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaregiversModuleViewController.swift; sourceTree = "<group>"; };
+		FA3204D61BEE624D007CE6E6 /* CaregiversModuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaregiversModuleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				FA32047E1BEE3BB6007CE6E6 /* AppDelegate.swift */,
+				FA3204D91BEE62AA007CE6E6 /* Caregiver's Module */,
 				FA3204AE1BEE40A9007CE6E6 /* Constants.swift */,
 				FA3204801BEE3BB6007CE6E6 /* ViewController.swift */,
+				FA3204D31BEE56D7007CE6E6 /* PetModel.swift */,
 				FA3204821BEE3BB6007CE6E6 /* Main.storyboard */,
 				FA3204851BEE3BB6007CE6E6 /* Assets.xcassets */,
 				FA3204871BEE3BB6007CE6E6 /* LaunchScreen.storyboard */,
@@ -202,6 +210,15 @@
 				FA3204B61BEE4183007CE6E6 /* ParseUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3204D91BEE62AA007CE6E6 /* Caregiver's Module */ = {
+			isa = PBXGroup;
+			children = (
+				FA3204D51BEE624D007CE6E6 /* CaregiversModuleViewController.swift */,
+				FA3204D61BEE624D007CE6E6 /* CaregiversModuleViewController.xib */,
+			);
+			name = "Caregiver's Module";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +328,7 @@
 				FA3204891BEE3BB6007CE6E6 /* LaunchScreen.storyboard in Resources */,
 				FA3204861BEE3BB6007CE6E6 /* Assets.xcassets in Resources */,
 				FA3204841BEE3BB6007CE6E6 /* Main.storyboard in Resources */,
+				FA3204D81BEE624D007CE6E6 /* CaregiversModuleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,8 +354,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3204811BEE3BB6007CE6E6 /* ViewController.swift in Sources */,
+				FA3204D71BEE624D007CE6E6 /* CaregiversModuleViewController.swift in Sources */,
 				FA32047F1BEE3BB6007CE6E6 /* AppDelegate.swift in Sources */,
 				FA3204AF1BEE40A9007CE6E6 /* Constants.swift in Sources */,
+				FA3204D41BEE56D7007CE6E6 /* PetModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
