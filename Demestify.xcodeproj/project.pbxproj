@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B9E8F9F3C0DB2BE8F313D0B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C750A64C13C815A069C4A51 /* libPods.a */; };
 		FA32047F1BEE3BB6007CE6E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32047E1BEE3BB6007CE6E6 /* AppDelegate.swift */; };
 		FA3204811BEE3BB6007CE6E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204801BEE3BB6007CE6E6 /* ViewController.swift */; };
 		FA3204841BEE3BB6007CE6E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3204821BEE3BB6007CE6E6 /* Main.storyboard */; };
@@ -14,6 +15,46 @@
 		FA3204891BEE3BB6007CE6E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3204871BEE3BB6007CE6E6 /* LaunchScreen.storyboard */; };
 		FA3204941BEE3BB6007CE6E6 /* DemestifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204931BEE3BB6007CE6E6 /* DemestifyTests.swift */; };
 		FA32049F1BEE3BB6007CE6E6 /* DemestifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32049E1BEE3BB6007CE6E6 /* DemestifyUITests.swift */; };
+		FA3204AF1BEE40A9007CE6E6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204AE1BEE40A9007CE6E6 /* Constants.swift */; };
+		FA3204B71BEE4183007CE6E6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204B01BEE4183007CE6E6 /* Bolts.framework */; };
+		FA3204B81BEE4183007CE6E6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204B11BEE4183007CE6E6 /* Parse.framework */; };
+		FA3204B91BEE4183007CE6E6 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204B21BEE4183007CE6E6 /* ParseCrashReporting.framework */; };
+		FA3204BA1BEE4183007CE6E6 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204B31BEE4183007CE6E6 /* ParseFacebookUtils.framework */; };
+		FA3204BB1BEE4183007CE6E6 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204B41BEE4183007CE6E6 /* ParseFacebookUtilsV4.framework */; };
+		FA3204BC1BEE4183007CE6E6 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204B51BEE4183007CE6E6 /* ParseTwitterUtils.framework */; };
+		FA3204BD1BEE4183007CE6E6 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204B61BEE4183007CE6E6 /* ParseUI.framework */; };
+		FA3204BF1BEE41E7007CE6E6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204BE1BEE41E7007CE6E6 /* AudioToolbox.framework */; };
+		FA3204C11BEE41F7007CE6E6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204C01BEE41F7007CE6E6 /* CFNetwork.framework */; };
+		FA3204C31BEE41FE007CE6E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204C21BEE41FE007CE6E6 /* CoreGraphics.framework */; };
+		FA3204C51BEE4241007CE6E6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204C41BEE4241007CE6E6 /* CoreLocation.framework */; };
+		FA3204C71BEE4247007CE6E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204C61BEE4247007CE6E6 /* QuartzCore.framework */; };
+		FA3204C91BEE424C007CE6E6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204C81BEE424C007CE6E6 /* Security.framework */; };
+		FA3204CB1BEE4253007CE6E6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204CA1BEE4253007CE6E6 /* StoreKit.framework */; };
+		FA3204CD1BEE4267007CE6E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204CC1BEE4267007CE6E6 /* SystemConfiguration.framework */; };
+		FA3204CF1BEE426D007CE6E6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204CE1BEE426D007CE6E6 /* libz.tbd */; };
+		FA3204D11BEE4275007CE6E6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3204D01BEE4275007CE6E6 /* libsqlite3.tbd */; };
+		FA3204D41BEE56D7007CE6E6 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204D31BEE56D7007CE6E6 /* PetModel.swift */; };
+		FA3204D71BEE624D007CE6E6 /* CaregiversModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204D51BEE624D007CE6E6 /* CaregiversModuleViewController.swift */; };
+		FA3204D81BEE624D007CE6E6 /* CaregiversModuleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3204D61BEE624D007CE6E6 /* CaregiversModuleViewController.xib */; };
+		FA3204DC1BEE6EFC007CE6E6 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204DA1BEE6EFC007CE6E6 /* StoreViewController.swift */; };
+		FA3204DD1BEE6EFC007CE6E6 /* StoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3204DB1BEE6EFC007CE6E6 /* StoreViewController.xib */; };
+		FA3204DF1BEE767F007CE6E6 /* Store Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3204DE1BEE767F007CE6E6 /* Store Constants.swift */; };
+		FA3205581BEE8148007CE6E6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FA3205571BEE8148007CE6E6 /* Podfile */; };
+		FA7BE53A1BEE88F6005C314B /* MZBlurEffectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BE5211BEE88F6005C314B /* MZBlurEffectAdapter.m */; };
+		FA7BE53B1BEE88F6005C314B /* MZFormSheetContentSizingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BE5231BEE88F6005C314B /* MZFormSheetContentSizingNavigationController.m */; };
+		FA7BE53C1BEE88F6005C314B /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BE5251BEE88F6005C314B /* MZFormSheetContentSizingNavigationControllerAnimator.m */; };
+		FA7BE53D1BEE88F6005C314B /* MZFormSheetPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BE5291BEE88F6005C314B /* MZFormSheetPresentationController.m */; };
+		FA7BE53E1BEE88F6005C314B /* MZFormSheetPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BE52B1BEE88F6005C314B /* MZFormSheetPresentationViewController.m */; };
+		FA7BE53F1BEE88F6005C314B /* MZFormSheetPresentationViewControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BE52E1BEE88F6005C314B /* MZFormSheetPresentationViewControllerAnimator.m */; };
+		FA7BE5401BEE88F6005C314B /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BE5301BEE88F6005C314B /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */; };
+		FA7BE5411BEE88F6005C314B /* MZFormSheetPresentationViewControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BE5331BEE88F6005C314B /* MZFormSheetPresentationViewControllerSegue.m */; };
+		FA7BE5421BEE88F6005C314B /* MZMethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BE5351BEE88F6005C314B /* MZMethodSwizzler.m */; };
+		FA7BE5431BEE88F6005C314B /* MZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BE5371BEE88F6005C314B /* MZTransition.m */; };
+		FA7BE5441BEE88F6005C314B /* UIViewController+TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7BE5391BEE88F6005C314B /* UIViewController+TargetViewController.m */; };
+		FAAFA56E1BEE8A5E00CC408B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAFA56D1BEE8A5E00CC408B /* Social.framework */; };
+		FAAFA5701BEE8A6500CC408B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAFA56F1BEE8A6500CC408B /* Accounts.framework */; };
+		FAAFA5721BEE8BBA00CC408B /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAFA5711BEE8BBA00CC408B /* libstdc++.6.tbd */; };
+		FAAFA5741BEE8D6500CC408B /* Parse Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFA5731BEE8D6500CC408B /* Parse Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +75,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		70E54C9FB89210AC15B37B81 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7C750A64C13C815A069C4A51 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1749F9E01054F9B1D6842BB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FA32047B1BEE3BB6007CE6E6 /* Demestify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demestify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA32047E1BEE3BB6007CE6E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA3204801BEE3BB6007CE6E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +91,62 @@
 		FA32049A1BEE3BB6007CE6E6 /* DemestifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemestifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA32049E1BEE3BB6007CE6E6 /* DemestifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemestifyUITests.swift; sourceTree = "<group>"; };
 		FA3204A01BEE3BB6007CE6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3204AE1BEE40A9007CE6E6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA3204B01BEE4183007CE6E6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		FA3204B11BEE4183007CE6E6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FA3204B21BEE4183007CE6E6 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		FA3204B31BEE4183007CE6E6 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		FA3204B41BEE4183007CE6E6 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		FA3204B51BEE4183007CE6E6 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		FA3204B61BEE4183007CE6E6 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		FA3204BE1BEE41E7007CE6E6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FA3204C01BEE41F7007CE6E6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FA3204C21BEE41FE007CE6E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA3204C41BEE4241007CE6E6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA3204C61BEE4247007CE6E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FA3204C81BEE424C007CE6E6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FA3204CA1BEE4253007CE6E6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FA3204CC1BEE4267007CE6E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FA3204CE1BEE426D007CE6E6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FA3204D01BEE4275007CE6E6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FA3204D31BEE56D7007CE6E6 /* PetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		FA3204D51BEE624D007CE6E6 /* CaregiversModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaregiversModuleViewController.swift; sourceTree = "<group>"; };
+		FA3204D61BEE624D007CE6E6 /* CaregiversModuleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaregiversModuleViewController.xib; sourceTree = "<group>"; };
+		FA3204DA1BEE6EFC007CE6E6 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		FA3204DB1BEE6EFC007CE6E6 /* StoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreViewController.xib; sourceTree = "<group>"; };
+		FA3204DE1BEE767F007CE6E6 /* Store Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store Constants.swift"; sourceTree = "<group>"; };
+		FA3204E11BEE7A0C007CE6E6 /* Demestify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demestify-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA3205571BEE8148007CE6E6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FA7BE5201BEE88F6005C314B /* MZBlurEffectAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBlurEffectAdapter.h; sourceTree = "<group>"; };
+		FA7BE5211BEE88F6005C314B /* MZBlurEffectAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBlurEffectAdapter.m; sourceTree = "<group>"; };
+		FA7BE5221BEE88F6005C314B /* MZFormSheetContentSizingNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetContentSizingNavigationController.h; sourceTree = "<group>"; };
+		FA7BE5231BEE88F6005C314B /* MZFormSheetContentSizingNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetContentSizingNavigationController.m; sourceTree = "<group>"; };
+		FA7BE5241BEE88F6005C314B /* MZFormSheetContentSizingNavigationControllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetContentSizingNavigationControllerAnimator.h; sourceTree = "<group>"; };
+		FA7BE5251BEE88F6005C314B /* MZFormSheetContentSizingNavigationControllerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetContentSizingNavigationControllerAnimator.m; sourceTree = "<group>"; };
+		FA7BE5261BEE88F6005C314B /* MZFormSheetPresentationContentSizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationContentSizing.h; sourceTree = "<group>"; };
+		FA7BE5271BEE88F6005C314B /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MZFormSheetPresentationController Swift Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA7BE5281BEE88F6005C314B /* MZFormSheetPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationController.h; sourceTree = "<group>"; };
+		FA7BE5291BEE88F6005C314B /* MZFormSheetPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationController.m; sourceTree = "<group>"; };
+		FA7BE52A1BEE88F6005C314B /* MZFormSheetPresentationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewController.h; sourceTree = "<group>"; };
+		FA7BE52B1BEE88F6005C314B /* MZFormSheetPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewController.m; sourceTree = "<group>"; };
+		FA7BE52C1BEE88F6005C314B /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		FA7BE52D1BEE88F6005C314B /* MZFormSheetPresentationViewControllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerAnimator.h; sourceTree = "<group>"; };
+		FA7BE52E1BEE88F6005C314B /* MZFormSheetPresentationViewControllerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerAnimator.m; sourceTree = "<group>"; };
+		FA7BE52F1BEE88F6005C314B /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerInteractiveAnimator.h; sourceTree = "<group>"; };
+		FA7BE5301BEE88F6005C314B /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerInteractiveAnimator.m; sourceTree = "<group>"; };
+		FA7BE5311BEE88F6005C314B /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerInteractiveTransitioning.h; sourceTree = "<group>"; };
+		FA7BE5321BEE88F6005C314B /* MZFormSheetPresentationViewControllerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerSegue.h; sourceTree = "<group>"; };
+		FA7BE5331BEE88F6005C314B /* MZFormSheetPresentationViewControllerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerSegue.m; sourceTree = "<group>"; };
+		FA7BE5341BEE88F6005C314B /* MZMethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMethodSwizzler.h; sourceTree = "<group>"; };
+		FA7BE5351BEE88F6005C314B /* MZMethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMethodSwizzler.m; sourceTree = "<group>"; };
+		FA7BE5361BEE88F6005C314B /* MZTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTransition.h; sourceTree = "<group>"; };
+		FA7BE5371BEE88F6005C314B /* MZTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTransition.m; sourceTree = "<group>"; };
+		FA7BE5381BEE88F6005C314B /* UIViewController+TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TargetViewController.h"; sourceTree = "<group>"; };
+		FA7BE5391BEE88F6005C314B /* UIViewController+TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TargetViewController.m"; sourceTree = "<group>"; };
+		FAAFA56D1BEE8A5E00CC408B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FAAFA56F1BEE8A6500CC408B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		FAAFA5711BEE8BBA00CC408B /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		FAAFA5731BEE8D6500CC408B /* Parse Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Parse Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +154,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAFA5721BEE8BBA00CC408B /* libstdc++.6.tbd in Frameworks */,
+				FAAFA5701BEE8A6500CC408B /* Accounts.framework in Frameworks */,
+				FAAFA56E1BEE8A5E00CC408B /* Social.framework in Frameworks */,
+				FA3204D11BEE4275007CE6E6 /* libsqlite3.tbd in Frameworks */,
+				FA3204CF1BEE426D007CE6E6 /* libz.tbd in Frameworks */,
+				FA3204CD1BEE4267007CE6E6 /* SystemConfiguration.framework in Frameworks */,
+				FA3204CB1BEE4253007CE6E6 /* StoreKit.framework in Frameworks */,
+				FA3204C91BEE424C007CE6E6 /* Security.framework in Frameworks */,
+				FA3204C71BEE4247007CE6E6 /* QuartzCore.framework in Frameworks */,
+				FA3204C51BEE4241007CE6E6 /* CoreLocation.framework in Frameworks */,
+				FA3204C31BEE41FE007CE6E6 /* CoreGraphics.framework in Frameworks */,
+				FA3204C11BEE41F7007CE6E6 /* CFNetwork.framework in Frameworks */,
+				FA3204BF1BEE41E7007CE6E6 /* AudioToolbox.framework in Frameworks */,
+				FA3204B81BEE4183007CE6E6 /* Parse.framework in Frameworks */,
+				FA3204B91BEE4183007CE6E6 /* ParseCrashReporting.framework in Frameworks */,
+				FA3204BD1BEE4183007CE6E6 /* ParseUI.framework in Frameworks */,
+				FA3204BA1BEE4183007CE6E6 /* ParseFacebookUtils.framework in Frameworks */,
+				FA3204B71BEE4183007CE6E6 /* Bolts.framework in Frameworks */,
+				FA3204BC1BEE4183007CE6E6 /* ParseTwitterUtils.framework in Frameworks */,
+				FA3204BB1BEE4183007CE6E6 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				9B9E8F9F3C0DB2BE8F313D0B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +195,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0591DB2C3E271EB574F6CC9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAAFA5711BEE8BBA00CC408B /* libstdc++.6.tbd */,
+				FAAFA56F1BEE8A6500CC408B /* Accounts.framework */,
+				FAAFA56D1BEE8A5E00CC408B /* Social.framework */,
+				7C750A64C13C815A069C4A51 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		725DC1EADF5F0198CA5CEC5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70E54C9FB89210AC15B37B81 /* Pods.debug.xcconfig */,
+				B1749F9E01054F9B1D6842BB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA3204721BEE3BB5007CE6E6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +222,8 @@
 				FA3204921BEE3BB6007CE6E6 /* DemestifyTests */,
 				FA32049D1BEE3BB6007CE6E6 /* DemestifyUITests */,
 				FA32047C1BEE3BB6007CE6E6 /* Products */,
+				725DC1EADF5F0198CA5CEC5D /* Pods */,
+				0591DB2C3E271EB574F6CC9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +242,16 @@
 			children = (
 				FA32047E1BEE3BB6007CE6E6 /* AppDelegate.swift */,
 				FA3204801BEE3BB6007CE6E6 /* ViewController.swift */,
+				FA3204AE1BEE40A9007CE6E6 /* Constants.swift */,
+				FA3204D91BEE62AA007CE6E6 /* Caregiver's Module */,
+				FA3204E01BEE7916007CE6E6 /* Store VC */,
+				FA3204D31BEE56D7007CE6E6 /* PetModel.swift */,
+				FAAFA5731BEE8D6500CC408B /* Parse Helper.swift */,
 				FA3204821BEE3BB6007CE6E6 /* Main.storyboard */,
 				FA3204851BEE3BB6007CE6E6 /* Assets.xcassets */,
 				FA3204871BEE3BB6007CE6E6 /* LaunchScreen.storyboard */,
 				FA32048A1BEE3BB6007CE6E6 /* Info.plist */,
+				FA3204D21BEE4286007CE6E6 /* Frameworks */,
 			);
 			path = Demestify;
 			sourceTree = "<group>";
@@ -125,6 +274,85 @@
 			path = DemestifyUITests;
 			sourceTree = "<group>";
 		};
+		FA3204D21BEE4286007CE6E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA3205571BEE8148007CE6E6 /* Podfile */,
+				FA3204E11BEE7A0C007CE6E6 /* Demestify-Bridging-Header.h */,
+				FA7BE5451BEE8924005C314B /* MZFormSheet */,
+				FA3204D01BEE4275007CE6E6 /* libsqlite3.tbd */,
+				FA3204CE1BEE426D007CE6E6 /* libz.tbd */,
+				FA3204CC1BEE4267007CE6E6 /* SystemConfiguration.framework */,
+				FA3204CA1BEE4253007CE6E6 /* StoreKit.framework */,
+				FA3204C81BEE424C007CE6E6 /* Security.framework */,
+				FA3204C61BEE4247007CE6E6 /* QuartzCore.framework */,
+				FA3204C41BEE4241007CE6E6 /* CoreLocation.framework */,
+				FA3204C21BEE41FE007CE6E6 /* CoreGraphics.framework */,
+				FA3204C01BEE41F7007CE6E6 /* CFNetwork.framework */,
+				FA3204BE1BEE41E7007CE6E6 /* AudioToolbox.framework */,
+				FA3204B01BEE4183007CE6E6 /* Bolts.framework */,
+				FA3204B11BEE4183007CE6E6 /* Parse.framework */,
+				FA3204B21BEE4183007CE6E6 /* ParseCrashReporting.framework */,
+				FA3204B31BEE4183007CE6E6 /* ParseFacebookUtils.framework */,
+				FA3204B41BEE4183007CE6E6 /* ParseFacebookUtilsV4.framework */,
+				FA3204B51BEE4183007CE6E6 /* ParseTwitterUtils.framework */,
+				FA3204B61BEE4183007CE6E6 /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3204D91BEE62AA007CE6E6 /* Caregiver's Module */ = {
+			isa = PBXGroup;
+			children = (
+				FA3204D51BEE624D007CE6E6 /* CaregiversModuleViewController.swift */,
+				FA3204D61BEE624D007CE6E6 /* CaregiversModuleViewController.xib */,
+			);
+			name = "Caregiver's Module";
+			sourceTree = "<group>";
+		};
+		FA3204E01BEE7916007CE6E6 /* Store VC */ = {
+			isa = PBXGroup;
+			children = (
+				FA3204DA1BEE6EFC007CE6E6 /* StoreViewController.swift */,
+				FA3204DB1BEE6EFC007CE6E6 /* StoreViewController.xib */,
+				FA3204DE1BEE767F007CE6E6 /* Store Constants.swift */,
+			);
+			name = "Store VC";
+			sourceTree = "<group>";
+		};
+		FA7BE5451BEE8924005C314B /* MZFormSheet */ = {
+			isa = PBXGroup;
+			children = (
+				FA7BE5201BEE88F6005C314B /* MZBlurEffectAdapter.h */,
+				FA7BE5211BEE88F6005C314B /* MZBlurEffectAdapter.m */,
+				FA7BE5221BEE88F6005C314B /* MZFormSheetContentSizingNavigationController.h */,
+				FA7BE5231BEE88F6005C314B /* MZFormSheetContentSizingNavigationController.m */,
+				FA7BE5241BEE88F6005C314B /* MZFormSheetContentSizingNavigationControllerAnimator.h */,
+				FA7BE5251BEE88F6005C314B /* MZFormSheetContentSizingNavigationControllerAnimator.m */,
+				FA7BE5261BEE88F6005C314B /* MZFormSheetPresentationContentSizing.h */,
+				FA7BE5271BEE88F6005C314B /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */,
+				FA7BE5281BEE88F6005C314B /* MZFormSheetPresentationController.h */,
+				FA7BE5291BEE88F6005C314B /* MZFormSheetPresentationController.m */,
+				FA7BE52A1BEE88F6005C314B /* MZFormSheetPresentationViewController.h */,
+				FA7BE52B1BEE88F6005C314B /* MZFormSheetPresentationViewController.m */,
+				FA7BE52C1BEE88F6005C314B /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */,
+				FA7BE52D1BEE88F6005C314B /* MZFormSheetPresentationViewControllerAnimator.h */,
+				FA7BE52E1BEE88F6005C314B /* MZFormSheetPresentationViewControllerAnimator.m */,
+				FA7BE52F1BEE88F6005C314B /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */,
+				FA7BE5301BEE88F6005C314B /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */,
+				FA7BE5311BEE88F6005C314B /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */,
+				FA7BE5321BEE88F6005C314B /* MZFormSheetPresentationViewControllerSegue.h */,
+				FA7BE5331BEE88F6005C314B /* MZFormSheetPresentationViewControllerSegue.m */,
+				FA7BE5341BEE88F6005C314B /* MZMethodSwizzler.h */,
+				FA7BE5351BEE88F6005C314B /* MZMethodSwizzler.m */,
+				FA7BE5361BEE88F6005C314B /* MZTransition.h */,
+				FA7BE5371BEE88F6005C314B /* MZTransition.m */,
+				FA7BE5381BEE88F6005C314B /* UIViewController+TargetViewController.h */,
+				FA7BE5391BEE88F6005C314B /* UIViewController+TargetViewController.m */,
+			);
+			name = MZFormSheet;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +360,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA3204A31BEE3BB6007CE6E6 /* Build configuration list for PBXNativeTarget "Demestify" */;
 			buildPhases = (
+				04045E17F48482BE3CB0C0E1 /* Check Pods Manifest.lock */,
 				FA3204771BEE3BB5007CE6E6 /* Sources */,
 				FA3204781BEE3BB5007CE6E6 /* Frameworks */,
 				FA3204791BEE3BB5007CE6E6 /* Resources */,
+				D9348A63E50C7E89F31C5E6D /* Embed Pods Frameworks */,
+				57DA8CAE55C699682868423D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +460,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3205581BEE8148007CE6E6 /* Podfile in Resources */,
 				FA3204891BEE3BB6007CE6E6 /* LaunchScreen.storyboard in Resources */,
 				FA3204861BEE3BB6007CE6E6 /* Assets.xcassets in Resources */,
 				FA3204841BEE3BB6007CE6E6 /* Main.storyboard in Resources */,
+				FA3204DD1BEE6EFC007CE6E6 /* StoreViewController.xib in Resources */,
+				FA3204D81BEE624D007CE6E6 /* CaregiversModuleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +485,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04045E17F48482BE3CB0C0E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57DA8CAE55C699682868423D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9348A63E50C7E89F31C5E6D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA3204771BEE3BB5007CE6E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FA3204811BEE3BB6007CE6E6 /* ViewController.swift in Sources */,
+				FAAFA5741BEE8D6500CC408B /* Parse Helper.swift in Sources */,
+				FA7BE53E1BEE88F6005C314B /* MZFormSheetPresentationViewController.m in Sources */,
+				FA3204D71BEE624D007CE6E6 /* CaregiversModuleViewController.swift in Sources */,
+				FA7BE53B1BEE88F6005C314B /* MZFormSheetContentSizingNavigationController.m in Sources */,
+				FA7BE5441BEE88F6005C314B /* UIViewController+TargetViewController.m in Sources */,
+				FA7BE53C1BEE88F6005C314B /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */,
+				FA7BE53A1BEE88F6005C314B /* MZBlurEffectAdapter.m in Sources */,
+				FA3204DC1BEE6EFC007CE6E6 /* StoreViewController.swift in Sources */,
+				FA7BE53F1BEE88F6005C314B /* MZFormSheetPresentationViewControllerAnimator.m in Sources */,
 				FA32047F1BEE3BB6007CE6E6 /* AppDelegate.swift in Sources */,
+				FA7BE5401BEE88F6005C314B /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */,
+				FA7BE53D1BEE88F6005C314B /* MZFormSheetPresentationController.m in Sources */,
+				FA7BE5431BEE88F6005C314B /* MZTransition.m in Sources */,
+				FA3204AF1BEE40A9007CE6E6 /* Constants.swift in Sources */,
+				FA3204DF1BEE767F007CE6E6 /* Store Constants.swift in Sources */,
+				FA3204D41BEE56D7007CE6E6 /* PetModel.swift in Sources */,
+				FA7BE5411BEE88F6005C314B /* MZFormSheetPresentationViewControllerSegue.m in Sources */,
+				FA7BE5421BEE88F6005C314B /* MZMethodSwizzler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +696,58 @@
 		};
 		FA3204A41BEE3BB6007CE6E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E54C9FB89210AC15B37B81 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Demestify",
+				);
 				INFOPLIST_FILE = Demestify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-l\"JGMethodSwizzler\"",
+					"-l\"MZAppearance\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexli.Demestify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demestify/Demestify-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FA3204A51BEE3BB6007CE6E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1749F9E01054F9B1D6842BB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Demestify",
+				);
 				INFOPLIST_FILE = Demestify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-l\"JGMethodSwizzler\"",
+					"-l\"MZAppearance\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexli.Demestify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demestify/Demestify-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +818,7 @@
 				FA3204A51BEE3BB6007CE6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA3204A61BEE3BB6007CE6E6 /* Build configuration list for PBXNativeTarget "DemestifyTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +827,7 @@
 				FA3204A81BEE3BB6007CE6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA3204A91BEE3BB6007CE6E6 /* Build configuration list for PBXNativeTarget "DemestifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +836,7 @@
 				FA3204AB1BEE3BB6007CE6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

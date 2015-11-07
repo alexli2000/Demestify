@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StoreViewController" customModule="Demestify" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="tfs-2W-BJb" id="ev1-Xm-VSW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="tfs-2W-BJb">
+                    <rect key="frame" x="122" y="138" width="356" height="324"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="324" id="Bkw-cm-Tt6"/>
+                        <constraint firstAttribute="width" secondItem="tfs-2W-BJb" secondAttribute="height" multiplier="89:81" id="iSg-7D-AxF"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gqR-hp-YcJ">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="j4K-Za-9kn"/>
+                        <outlet property="delegate" destination="-1" id="Sb2-G9-zW3"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tfs-2W-BJb" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="KEU-lm-xIX"/>
+                <constraint firstItem="tfs-2W-BJb" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wG6-eh-MZN"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
